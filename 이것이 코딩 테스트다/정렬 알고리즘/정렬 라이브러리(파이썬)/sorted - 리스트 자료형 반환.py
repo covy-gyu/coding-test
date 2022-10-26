@@ -5,3 +5,7 @@
 arr = [7, 5, 9, 0, 3, 1, 6, 2, 4, 8]
 result = sorted(arr)
 print(result)
+
+#내림차순 reverse속성
+result = sorted(arr, reverse=True)
+print(result)
