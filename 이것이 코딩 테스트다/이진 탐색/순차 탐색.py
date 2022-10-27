@@ -17,3 +17,5 @@ arr = input().split()
 
 #순차 탐색 수행 결과 출력
 print(sequential_search(n,target,arr))
+
+# 최악의 시간 복잡도 O(N)
