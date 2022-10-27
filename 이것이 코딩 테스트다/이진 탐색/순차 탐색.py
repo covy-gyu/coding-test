@@ -19,3 +19,4 @@ arr = input().split()
 print(sequential_search(n,target,arr))
 
 # 최악의 시간 복잡도 O(N)
+# 탐색 범위가 2,000만을 넘어가면 이진 탐색으로 문제에 접근해보자
