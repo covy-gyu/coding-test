@@ -14,3 +14,5 @@ def fibo(x):
     return d[x]
 
 print(fibo(99))
+
+#탑다운 방식  하향식이라고도 함
