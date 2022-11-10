@@ -9,7 +9,7 @@ def find_parent(parent, x):
 #두 원소가 속한 집합을 합치기
 def union_parent(parent, a, b):
     a = find_parent(parent, a)
-    b = find_parent(parent, b)
+    b = find_parent(parent, b)  
     if a < b:
         parent[b] = a
     else:
@@ -38,10 +38,7 @@ print()
 #부모 테이블 내용 출력
 print('부모 테이블: ',end=' ')
 for i in range(1, v+1):
-    print(parent[i], end=' ')
+    print(parent[i], end=' ') 
 
 #find 함수가 비효율적
 # 시간 복잡도 O(V)#
-
-
-  
