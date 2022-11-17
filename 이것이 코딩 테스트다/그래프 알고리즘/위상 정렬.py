@@ -14,6 +14,8 @@ for _ in range(e):
     # 진입차수를 1 증가
     indegree[b] += 1
 
+print(graph)
+
 #위상 정렬 함수
 def topology_sort():
     result = [] #알고리즘 수행 결과를 담을 리스트
@@ -41,3 +43,5 @@ def topology_sort():
         print(i, end=' ')
 
 topology_sort()
+
+# 시간 복잡도 O(V+E)
